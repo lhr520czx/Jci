@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Layout</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        footer{
+            float: left;
+            clear: left;
+            background: lightcyan;
+            width: 100%;
+            height:6%;
+        }
+        *{
+            text-align: center;
+        }
+        li{
+            display: inline;
+            width: 20%;
+            background-color: #cacaca;
+        }
+        nav{
+            width: 100%;
+            height: 4em;
+        }
+        section,aside{
+            float: left;
+        }
+        section{
+            background: lawngreen;
+            width: 70%;
+            height: 70%;
+        }
+        aside{
+            margin: 20% 0 0 0;
+            padding: 0;
+            background: lightcoral;
+            width: 20%;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <article>
+        one
+    </article>
+    <article>
+        two
+    </article>
+</section>
+<aside>
+    aside
+</aside>
+<footer>
+    footer
+</footer>
+</body>
+</html>

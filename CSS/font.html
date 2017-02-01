@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font</title>
+    <style>
+        @font-face {
+            font-family: Alex ;
+            src: url("../fonts/AlexBrush-Regular.ttf");
+        }
+
+        #p1 {
+            font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        }
+
+        #p3 {
+            font-family: Alex, sans-serif;
+        }
+
+        #p2 {
+            font-weight: bolder;
+            text-transform: capitalize;
+            text-decoration: overline;
+            line-height: 2em;
+            word-spacing: 1em;
+            letter-spacing: 2em;
+            text-align: justify;
+        }
+
+        #p4 {
+
+        }
+
+        p em {
+            line-height: 10em;
+            vertical-align: bottom;
+        }
+
+        #p5 {
+            text-indent: 2em;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.57);
+
+        }
+
+        #p5:first-letter {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+<p>
+    this is not specify font text.
+</p>
+
+<p id="p1">
+    This is for test the font.
+</p>
+
+
+<p id="p3">
+    This is Alex font.
+</p>
+
+<p id="p2">
+    This is a text for show many property for font. <br>
+    This is a text for show many property for font. <br>
+    This is a text for show many property for font. <br>
+    This is a text for show many property for font. <br>
+</p>
+
+<p id="p4">
+    Other textOther textOther textOther textOther textOther textOther text. <br>
+    <em>
+        This strong tag is for text vertical align.
+    </em>
+    Other textOther textOther textOther textOther textOther Other textOther. <br>
+</p>
+
+<p id="p5">
+    This is a text for text shadow and indent.
+</p>
+
+
+</body>
+</html>

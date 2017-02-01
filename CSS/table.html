@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        table {
+            width: 32em;
+            border: solid #bbbbbb;
+            /*border-spacing: 0.2em;*/
+            border-collapse: collapse ;
+        }
+
+        tr.even {
+            background-color: rgba(187, 187, 187, 0.69);
+        }
+
+        td {
+            empty-cells: hide;
+        }
+
+        th {
+            text-align: left;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: 70%;
+        }
+
+        th, td {
+            width: 8em;
+            padding: 1em;
+            border-right: solid 1px #cacaca;
+        }
+
+
+        td.number {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th scope="col">
+            player name
+        </th>
+
+        <th scope="col">
+            game
+        </th>
+
+        <th scope="col">
+            years
+        </th>
+
+        <th scope="col">
+            score
+        </th>
+
+    </tr>
+
+    <tr class="even">
+        <td>linjituan</td>
+        <td>LOL</td>
+        <td class="number">21</td>
+        <td class="number">1234</td>
+    </tr>
+
+    <tr>
+        <td>linjituan</td>
+        <td>LOL</td>
+        <td class="number">21</td>
+        <td class="number">12345</td>
+    </tr>
+
+    <tr class="even">
+        <td>linjituan</td>
+        <td>LOL</td>
+        <td class="number">21</td>
+        <td class="number">12346</td>
+    </tr>
+
+    <tr>
+        <td>linjituan</td>
+        <td>LOL</td>
+        <td class="number">21</td>
+        <td class="number"></td>
+    </tr>
+
+
+</table>
+</body>
+</html>
